@@ -1,0 +1,53 @@
+Number of texts: 25000
+Number of texts: 25000
+Number of training texts: 20000
+Number of validation texts: 5000
+Unique tokens: 90956
+Vocabulary size: 25000
+Vocabulary created and saved to vocab.json
+Vocabulary size: 25002
+Batch size: 1, Training time: 3065.63s, Validation Accuracy: 0.8324
+Batch size: 16, Training time: 264.83s, Validation Accuracy: 0.8436
+Batch size: 32, Training time: 115.34s, Validation Accuracy: 0.8524
+Batch size: 64, Training time: 81.74s, Validation Accuracy: 0.8440
+Batch size: 128, Training time: 65.24s, Validation Accuracy: 0.8484
+Best Batch Size: 32
+Test Loss: 0.3914, Test Accuracy: 0.8408, Precision: 0.7947, Recall: 0.9190, F1: 0.8523
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0, Loss Function: bce
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0, Loss Function: bce -> Validation Accuracy: 0.8334
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0, Loss Function: mse
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0, Loss Function: mse -> Validation Accuracy: 0.1690
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0.0001, Loss Function: bce
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0.0001, Loss Function: bce -> Validation Accuracy: 0.8060
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0.0001, Loss Function: mse
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0.0001, Loss Function: mse -> Validation Accuracy: 0.1096
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: sgd, Weight Decay: 0, Loss Function: bce
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: sgd, Weight Decay: 0, Loss Function: bce -> Validation Accuracy: 0.1974
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: sgd, Weight Decay: 0, Loss Function: mse
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: sgd, Weight Decay: 0, Loss Function: mse -> Validation Accuracy: 0.0002
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: sgd, Weight Decay: 0.0001, Loss Function: bce
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: sgd, Weight Decay: 0.0001, Loss Function: bce -> Validation Accuracy: 0.1512
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: sgd, Weight Decay: 0.0001, Loss Function: mse
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.3, Optimizer: sgd, Weight Decay: 0.0001, Loss Function: mse -> Validation Accuracy: 0.0008
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: adam, Weight Decay: 0, Loss Function: bce
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: adam, Weight Decay: 0, Loss Function: bce -> Validation Accuracy: 0.8510
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: adam, Weight Decay: 0, Loss Function: mse
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: adam, Weight Decay: 0, Loss Function: mse -> Validation Accuracy: 0.2020
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: adam, Weight Decay: 0.0001, Loss Function: bce
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: adam, Weight Decay: 0.0001, Loss Function: bce -> Validation Accuracy: 0.5554
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: adam, Weight Decay: 0.0001, Loss Function: mse
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: adam, Weight Decay: 0.0001, Loss Function: mse -> Validation Accuracy: 0.0638
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: sgd, Weight Decay: 0, Loss Function: bce
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: sgd, Weight Decay: 0, Loss Function: bce -> Validation Accuracy: 0.0928
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: sgd, Weight Decay: 0, Loss Function: mse
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: sgd, Weight Decay: 0, Loss Function: mse -> Validation Accuracy: 0.0000
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: sgd, Weight Decay: 0.0001, Loss Function: bce
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: sgd, Weight Decay: 0.0001, Loss Function: bce -> Validation Accuracy: 0.0770
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: sgd, Weight Decay: 0.0001, Loss Function: mse
+Batch Size: 1, Epochs: 10, LR: 0.001, Dropout: 0.5, Optimizer: sgd, Weight Decay: 0.0001, Loss Function: mse -> Validation Accuracy: 0.0000
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.0001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0, Loss Function: bce
+Batch Size: 1, Epochs: 10, LR: 0.0001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0, Loss Function: bce -> Validation Accuracy: 0.8022
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.0001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0, Loss Function: mse
+Batch Size: 1, Epochs: 10, LR: 0.0001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0, Loss Function: mse -> Validation Accuracy: 0.1260
+Training with Parameters -> Batch Size: 1, Epochs: 10, LR: 0.0001, Dropout: 0.3, Optimizer: adam, Weight Decay: 0.0001, Loss Function: bce
+
