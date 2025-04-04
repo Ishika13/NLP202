@@ -1,0 +1,25 @@
+# Structured SVM Training Report
+
+## Model Description
+The model is a BiLSTM-CRF with structured SVM training using a Hamming distance cost function.
+- Embedding dimension: 40
+- Hidden dimension: 40
+- Cost scale: 10.0 (multiplier for Hamming distance)
+
+## Training Details
+- Implemented early stopping based on F1 score on dev set
+- Used L2 regularization
+- Cost-augmented decoding during training
+
+## Parameter Tuning Results
+| Learning Rate | Reg Strength | Precision | Recall | F1 |
+|---------------|--------------|-----------|--------|----|
+| 0.001 | 0.01 | 0.0452 | 0.1695 | 0.0714 |
+| 0.001 | 0.001 | 0.0267 | 0.1420 | 0.0450 |
+| 0.001 | 0.05 | 0.0000 | 0.0000 | 0.0000 |
+
+Best configuration: lr=0.001, reg=0.01, F1=0.0714
+
+## Final Results
+Dev set: Precision=0.0714, Recall=0.1695, F1=0.0714
+Test set: Precision=0.0450, Recall=0.1590, F1=0.0702
